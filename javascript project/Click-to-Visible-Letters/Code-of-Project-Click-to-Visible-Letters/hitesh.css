@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #040404;
+    user-select: none;
+    font-family: cursive;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #3945c5,#b41e3c);
+}
+
+div{
+    text-align: center;
+    font-size: 15rem;
+}
+
+#i,#j,#a,#y,#complete{
+    display: none;
+}
